@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        app:srcCompat="@drawable/f_irrigation"
+        android:id="@+id/auto"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/auto_On"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn On" />
+
+    <Button
+        android:id="@+id/auto_Off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn Off" />
+
+</LinearLayout>

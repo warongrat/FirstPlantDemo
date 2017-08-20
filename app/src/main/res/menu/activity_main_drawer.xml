@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Menu">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_weather"
+                        android:icon="@drawable/weather"
+                        android:title="Weather" />
+                    <item
+                        android:id="@+id/nav_TH"
+                        android:icon="@drawable/air_temp"
+                        android:title="Temp./Humid." />
+                    <item
+                        android:id="@+id/nav_RL"
+                        android:icon="@drawable/rainy"
+                        android:title="Rain/Light" />
+                    <item
+                        android:id="@+id/nav_SH"
+                        android:icon="@drawable/soil_hum"
+                        android:title="Soil Moisture" />
+                    <item
+                        android:id="@+id/nav_WT"
+                        android:icon="@drawable/water_temp"
+                        android:title="Water Temp." />
+                    <item
+                        android:id="@+id/nav_FL"
+                        android:icon="@drawable/fertilizer_level"
+                        android:title="Fertilizer Level" />
+                    <item
+                        android:id="@+id/nav_water"
+                        android:icon="@drawable/water"
+                        android:title="Irrigation Control" />
+                    <item
+                        android:id="@+id/nav_Wauto"
+                        android:icon="@drawable/irrigation2"
+                        android:title="Auto Irrigation" />
+                    <item
+                        android:id="@+id/nav_fertilizer"
+                        android:icon="@drawable/ferlilizer"
+                        android:title="Fertilization Control" />
+                    <item
+                        android:id="@+id/nav_time"
+                        android:icon="@drawable/timer"
+                        android:title="Auto Fertilizer" />
+
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_stat"
+            android:icon="@drawable/statistic"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+</menu>
